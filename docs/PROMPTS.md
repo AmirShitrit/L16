@@ -1,2 +1,3 @@
 - Generate a Python program that reads the sentences in @sentences.json and classifies them by running K-Means with K=3.
 - generate a Taskfile.yml with two tasks: one for downloading and installing all the dependencies, and a second one for running the program.
+- Plot the results using a scatter chart.
