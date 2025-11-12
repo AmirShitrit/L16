@@ -4,3 +4,10 @@
 - In addition to plotting the results, generate a new JSON file named `sentences_clustered.json` that contains 3 lists - one for each cluster with all the sentences belonging to that cluster in it.
 - Run KNN with K=5 on the new sentences in @new_sentences.json. Plot the results in the same chart using the colors of each group, but surround them with a circle to denote that they're new. Also print to console the cluster
  to which they were attached. 
+- Generate a professional and well-structured README.md file for a software project following best practices. Include sections such as:
+  - Project title
+  - Features
+  - Detailed description of the theory and solution
+  - Installation instructions
+  - Usage examples
+  - Include screenshots that visualize the examples
