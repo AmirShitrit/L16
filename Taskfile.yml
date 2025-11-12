@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  install:
+    desc: Download and install all dependencies
+    cmds:
+      - uv pip install -r requirements.txt
+
+  default:
+    desc: Run the K-Means clustering program
+    cmds:
+      - uv run python kmeans_clustering.py
