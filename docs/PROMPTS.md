@@ -1,3 +1,6 @@
 - Generate a Python program that reads the sentences in @sentences.json and classifies them by running K-Means with K=3.
 - generate a Taskfile.yml with two tasks: one for downloading and installing all the dependencies, and a second one for running the program.
 - Plot the results using a scatter chart.
+- In addition to plotting the results, generate a new JSON file named `sentences_clustered.json` that contains 3 lists - one for each cluster with all the sentences belonging to that cluster in it.
+- Run KNN with K=5 on the new sentences in @new_sentences.json. Plot the results in the same chart using the colors of each group, but surround them with a circle to denote that they're new. Also print to console the cluster
+ to which they were attached. 
